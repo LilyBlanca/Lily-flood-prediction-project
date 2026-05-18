@@ -1,0 +1,8 @@
+data/raw/*.csv
+data/processed/*.csv
+models/*.pkl
+reports/error_analysis.csv
+reports/flood_predictions.csv
+__pycache__/
+.ipynb_checkpoints/
+.env
