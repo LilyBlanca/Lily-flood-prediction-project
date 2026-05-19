@@ -3,6 +3,7 @@ data/processed/*.csv
 models/*.pkl
 reports/error_analysis.csv
 reports/flood_predictions.csv
+reports/predictions.csv
 __pycache__/
 .ipynb_checkpoints/
 .env
