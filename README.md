@@ -38,5 +38,31 @@ The target variable is:
 
 The raw dataset files are not included in this repository because they may be large. Please download the dataset from Kaggle and place the files in:
 
+## Visual Analysis
+
+### Error Distribution
+
+The error distribution plot shows how prediction errors are distributed around zero. Most errors being close to zero indicates that the model makes relatively small mistakes for most validation samples.
+
+![Error Distribution](reports/figures/error_distribution.png)
+
+### Actual vs Predicted Values
+
+The actual-vs-predicted plot compares the true `FloodProbability` values with the model predictions. Points closer to the diagonal line indicate better predictions.
+
+![Actual vs Predicted](reports/figures/actual_vs_predicted.png)
+
+### Error by Flood Probability Level
+
+This plot compares the mean absolute error across low, medium, and high flood-probability groups.
+
+![Error by Flood Level](reports/figures/error_by_flood_level.png)
+
+### Feature Importance
+
+Feature importance was analyzed using Ridge Regression coefficients. Since the Ridge model uses standardized features, coefficient magnitudes can be compared across features.
+
+![Feature Importance](reports/figures/feature_importance.png)
+
 ```text
 data/raw/
